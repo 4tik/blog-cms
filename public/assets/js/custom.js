@@ -35,11 +35,11 @@
 	var tinyslider = function() {
 
 		var slider = document.querySelectorAll('.features-slider');
-		var postSlider = document.querySelectorAll('.post-slider');
+		var postSlider = document.querySelectorAll('.postRequest-slider');
 		var testimonialSlider = document.querySelectorAll('.testimonial-slider');
-		
-		
-		
+
+
+
 		if ( slider.length> 0 ) {
 			var tnsSlider = tns({
 				container: '.features-slider',
@@ -72,7 +72,7 @@
 
 		if ( postSlider.length> 0 ) {
 			var tnsPostSlider = tns({
-				container: '.post-slider',
+				container: '.postRequest-slider',
 				mode: 'carousel',
 				speed: 700,
 				items: 3,
@@ -85,7 +85,7 @@
 				nav: true,
 				autoplay: true,
 				autoplayButtonOutput: false,
-				controlsContainer: '#post-slider-nav',
+				controlsContainer: '#postRequest-slider-nav',
 				responsive: {
 					0: {
 						items: 1
@@ -131,7 +131,7 @@
 			});
 		}
 
-		
+
 	}
 	tinyslider();
 
